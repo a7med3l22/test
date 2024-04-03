@@ -1,0 +1,17 @@
+.COVAC{
+    text-align: end;
+    margin: 10px;
+}
+.search-icon {
+    cursor: pointer; 
+  }
+  a{
+    color: black;
+  }
+  @media screen and (max-width: 600px) {
+
+.a1{
+  text-align: center;
+}
+
+  }

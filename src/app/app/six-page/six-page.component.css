@@ -1,0 +1,44 @@
+.content-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    overflow: hidden; /* Optional: Ensure the shadow doesn't overflow */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.ii {
+    height: 100px;
+    width: auto; /* Set width to auto to maintain aspect ratio */
+}
+.aa{
+    background-color: #bcb9b9; 
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); 
+    padding: 20px 60px; 
+    text-align: right; 
+    border-radius: 50px; 
+    cursor: pointer;
+}
+.aaa{
+    background-color: #0e0d0d; 
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); 
+    padding: 20px 60px; 
+    text-align: right; 
+    border-radius: 50px; 
+    color: white;
+    cursor: pointer;
+}
+.round{
+    border-radius: 70px;
+    width: 100px;
+    margin-left: 15px;
+}
+@media  (min-width: 600px) and (max-width: 1000px) {
+    .col-md-6.text-center {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .col-md-6.text-center img {
+        margin-bottom: 10px;
+    }
+}

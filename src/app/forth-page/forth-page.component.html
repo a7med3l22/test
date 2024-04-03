@@ -1,0 +1,31 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <a routerLink="/">
+            <fa-icon [icon]="faBackward"></fa-icon>            
+        </a>
+        <div class="col-md-6">
+            <h1 dir="rtl">مشترياتي</h1>
+            <div class="shadow-background">
+                <ul>
+                    <li >
+                        <a (click)="toggleComponentVisibility()" [ngClass]="{'yellow-background': isComponentVisible}">
+                            الطلبات <fa-icon [icon]="faList"></fa-icon>
+                        </a>
+                    </li>
+                    <li >
+                        <a (click)="toggleComponentVisibility1()" [ngClass]="{'yellow-background': isComponentVisible1}">
+                            الدفعات <fa-icon [icon]="faMoneyCheck"></fa-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <ng-container *ngIf="isComponentVisible">
+        <app-fifthpage></app-fifthpage>
+    </ng-container>
+    
+    <ng-container *ngIf="isComponentVisible1">
+        <app-six-page></app-six-page>
+    </ng-container>
+</div>

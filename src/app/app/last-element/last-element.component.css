@@ -1,0 +1,83 @@
+a {
+    color: black;
+}
+
+.abc {
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+    background-color: lightgray; /* Change the background color as desired */
+    padding: 5px 10px;
+    width: 300px; /* Adjust the width as desired */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    border-radius: 50px;
+    cursor: pointer;
+}
+h1{
+    margin-bottom: -3.5rem;
+   
+}
+
+
+.rounded-photo {
+    display: flex;
+   margin-top: 5rem;
+ 
+}
+
+.rounded-photo img {
+    width: 100px; /* Adjust the width of the photo as desired */
+    height: 100px; /* Adjust the height of the photo as desired */
+    border-radius: 50%; /* Making the image round */
+    border: 2px solid #000; /* Adding a border */
+    
+}
+
+.rounded-photo p {
+    margin: 0 0 0 10px; /* Adjust the margin as desired */
+}
+.smaller-background {
+    margin: 0;
+    padding: 10px 30px; /* Adjust the padding as desired */
+    background-color: lightgray; /* Change the background color as desired */
+    border-radius: 50px;
+   
+}
+
+hr{
+    margin-top: 30px;
+}
+.a1{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; padding: 10px 50px; background-color: lightgray; border-radius: 50px;
+}
+.a2{
+    position: absolute; top: 35%; left: 75%; transform: translate(-50%, -50%); margin: 0; padding: 10px 50px; background-color: rgb(102, 101, 101); border-radius: 50px;
+}
+.a3{
+    position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); margin: 0; padding: 10px 50px; background-color: lightgray; border-radius: 50px;
+}
+.a4{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; padding: 10px 50px; background-color: lightgray; border-radius: 50px;
+}
+
+.a5{
+    border: 2px solid black; padding: 20px; margin-top: 20px;margin-bottom: 40px;
+}
+@media screen and (max-width: 500px) {
+    .a1{
+        position: absolute; top: 50%; left: 60%; transform: translate(-50%, -50%); margin: 0; padding: 10px 50px; background-color: lightgray; border-radius: 50px;
+    }
+    .a2{
+        position: absolute; top: 35%; left: 75%; transform: translate(-50%, -50%); margin: 0; padding: 10px 50px; background-color: rgb(102, 101, 101); border-radius: 50px;
+    }
+    .a3{
+        position: absolute; top: 70%; left: 60%; transform: translate(-50%, -50%); margin: 0; padding: 10px 80px; background-color: lightgray; border-radius: 50px;
+    }
+    .a4{
+        position: absolute; top: 65%; left: 60%; transform: translate(-50%, -50%); margin: 0; padding: 10px 80px; background-color: lightgray; border-radius: 50px;
+    }
+    .a5{
+        border: 2px solid black; padding: 20px; margin-top: 50px;margin-bottom: 40px;
+    }
+}

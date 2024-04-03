@@ -1,0 +1,63 @@
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        
+        <div class="col-md-6">
+            <a routerLink="/">
+                <fa-icon [icon]="faBackward"></fa-icon>
+
+            </a>
+            <h3 class="text-center">محاصيل القهوة</h3>
+            
+
+            <div class="content-container shadow mt-5">
+                <div class="row align-items-center" dir="rtl">
+                    <div class="col-md-6 text-center">
+                        <h3>كفة</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a routerLink="/thirdpage">
+                            <img src="https://pbs.twimg.com/profile_images/1496615541406109696/AhlhKEdl_400x400.jpg" class="img-fluid rounded-circle ii" alt="Image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content-container shadow my-3">
+                <div class="row align-items-center" dir="rtl">
+                    <div class="col-md-6 text-center">
+                        <h3>ابو العوف</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="data:image/png;base64,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" class="img-fluid rounded-circle ii" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content-container shadow my-3">
+                <div class="row align-items-center" dir="rtl">
+                    <div class="col-md-6 text-center">
+                        <h3>بن السيف</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="https://pwa-cdn.alsaifgallery.com/media/attribute/swatch/i/m/image_88__1.png" class="img-fluid rounded-circle ii" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-container shadow my-3">
+                <div class="row align-items-center" dir="rtl">
+                    <div class="col-md-6 text-center">
+                        <h3>بن العميد</h3>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="https://alameedcoffee.com/img/global/logo-ar.png" class="img-fluid rounded-circle ii" alt="Image">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

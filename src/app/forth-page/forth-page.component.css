@@ -1,0 +1,62 @@
+.shadow-background {
+    background-color: #bcb9b9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: right; 
+    border-radius: 50px; 
+}
+.shadow-background1{
+    background-color: white; 
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); 
+    padding: 20px 60px; 
+    text-align: right; 
+    border-radius: 50px; 
+}
+
+.inline {
+    display: inline;
+}
+.align-left {
+    text-align: left; 
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 0%;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.yellow-background {
+ 
+
+    background-color: white; 
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); 
+    padding: 20px 60px; 
+    text-align: right; 
+    border-radius: 50px; 
+}
+
+@media screen and (max-width: 600px) {
+        .yellow-background[_ngcontent-ng-c3234787758] {
+        background-color: white;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        padding: 8px 24px;
+        text-align: right;
+        border-radius: 31px;
+    }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+    .yellow-background[_ngcontent-ng-c3234787758] {
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    padding: 8px 24px;
+    text-align: right;
+    border-radius: 31px;
+}
+}

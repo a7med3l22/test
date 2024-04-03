@@ -1,0 +1,68 @@
+/* Default styles */
+a {
+    color: black;
+}
+
+.abc {
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+    background-color: lightgray; /* Change the background color as desired */
+    padding: 5px 10px;
+    width: 300px; /* Adjust the width as desired */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: -3.5rem;
+}
+
+.rounded-photo {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.rounded-photo img {
+    width: 100px; /* Adjust the width of the photo as desired */
+    height: 100px; /* Adjust the height of the photo as desired */
+    border-radius: 50%; /* Making the image round */
+    border: 2px solid #000; /* Adding a border */
+}
+
+.rounded-photo p {
+    margin: 0 0 0 10px; /* Adjust the margin as desired */
+}
+
+.smaller-background {
+    margin: 0;
+    padding: 10px 30px; /* Adjust the padding as desired */
+    background-color: lightgray; /* Change the background color as desired */
+    border-radius: 50px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 1000px) {
+    .abc {
+        width: 200px; /* Adjust the width for small screens */
+        padding: 5px 5px; /* Adjust the padding for small screens */
+    }
+    
+    .rounded-photo img {
+        width: 50px; /* Adjust the width of the photo for small screens */
+        height: 50px; /* Adjust the height of the photo for small screens */
+    }
+    
+    .smaller-background {
+        padding: 5px 10px; /* Adjust the padding for small screens */
+    }
+    .am[_ngcontent-ng-c4082407196] {
+        text-align: center;
+        cursor: pointer;
+        width: 180px;}
+}
+.am{
+    text-align: center; cursor: pointer; width: 400px; position: absolute; top: 35%; left: 75%; transform: translate(-50%, -50%); margin: 0; padding: 10px 50px; background-color: lightgray; border-radius: 50px;
+}

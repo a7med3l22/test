@@ -1,0 +1,14 @@
+.content-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    overflow: hidden; /* Optional: Ensure the shadow doesn't overflow */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.ii {
+    height: 100px;
+    width: auto; /* Set width to auto to maintain aspect ratio */
+}
+a{
+    color: black;
+}
